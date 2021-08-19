@@ -1,0 +1,58 @@
+{
+  "name": "react-interview",
+  "author": {
+    "name": "Ben Rose",
+    "email": "doranxenos@gmail.com"
+  },
+  "version": "0.1.0",
+  "description": "A starter app for  frontend exercise.",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.12",
+    "@chakra-ui/react": "^1.6.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.3.0",
+    "framer-motion": "^4.1.4",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.12.15",
+    "@babel/plugin-transform-react-display-name": "^7.12.13",
+    "@types/react": "^17.0.4",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-import-resolver-webpack": "^0.13.0",
+    "eslint-plugin-destructuring": "^2.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "next": "^10.2.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.12",
+    "typescript": "^4.2.4"
+  },
+  "browserslist": {
+    "production": [
+      "last 2 versions"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src pages",
+    "prettier": "prettier --write -c src pages"
+  }
+}
